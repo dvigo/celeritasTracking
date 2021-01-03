@@ -1,6 +1,6 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const trackingId = ""
+const trackingId = "YOUR_TRACK_ID"
 const url = "https://celeritastransporte.com/seguimiento-paquete-pedidos/?refer="+trackingId+"&lang=es&c=141"
 
 fetchData(url).then( (res) => {
